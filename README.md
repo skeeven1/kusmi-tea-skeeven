@@ -47,7 +47,6 @@ Cette landing page met en avant :
 ### 5. Responsive Layout
 - Media-queries à **768px** et **1024px**  
 - **Flexbox** et **Grid** pour la mise en page  
-- Suppression de tout `overflow-x` global (sauf `.carousel-track`)
 
 ---
 
@@ -62,7 +61,7 @@ Cette landing page met en avant :
 
 - JavaScript
 
-- SVG pour flèches personnalisées
+- SVG pour flèches du caroussel
 
 - Font : Lato (Google Fonts)
 
