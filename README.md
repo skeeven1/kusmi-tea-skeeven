@@ -1,109 +1,78 @@
-# kusmi-tea-skeevenKusmi Tea Skeeven
+# kusmi-tea-skeeven
 
-Projet : Landing Page Kusmi Tea
+## Kusmi Tea Skeeven
 
-Page d’opération responsive intégrée en HTML, CSS & JavaScript, avec un carrousel produits et un modal.
+**Projet :** Landing Page Kusmi Tea
 
-📝 Présentation
+Page d’opération responsive intégrée en **HTML**, **CSS** & **JavaScript**, avec un carrousel produits et un modal.
+
+---
+
+## 📝 Présentation
 
 Cette landing page met en avant :
 
-Une section Nos Bestsellers (4 cartes produit)
+- **Nos Bestsellers** : 4 cartes produit  
+- **Bloc CTA** : image + titre + description + bouton  
+- **Nos Accessoires** : carrousel scrollable avec différentes images  
+- **Modal Popup** : déclenché par le bouton “JE DÉCOUVRE”  
+- **Effet Zoom** : zoom on hover sur chaque image
 
-Un bloc central CTA (image + titre, description, bouton)
+**Responsive :**  
+- **Mobile** : menu en colonne, carrousel tactile, titre mobile, pas d’overflow horizontal, zoom image réduit, différents niveaux de grilles pour les colonnes 
+---
 
-Une section Nos Accessoires avec un carrousel scrollable (9 cartes produit)
+## 🚀 Fonctionnalités
 
-Un modal (popup) déclenché par le CTA « JE DÉCOUVRE »
+### 1. Carrousel Produits
+- Navigation par flèches 
+- Scroll disponible 
+- Masquage de la scrollbar native
 
-Effet zoom on hover sur chaque image produit
+### 2. Modal Popup
+- Ouverture au clic sur **JE DÉCOUVRE**  
+- Fermeture par croix ou touche `Esc`  
 
-La page est responsive :
+### 3. Zoom au Survol
+- `scale(1.1)` sur **desktop**  
+- `scale(1.05)` sur **tablette**  
+- **Désactivé** sur mobile
 
-Mobile : menu en colonne, carrousel scrollable au doigt, titre mobile, sans overflow horizontal
+### 4. Double Titre CTA
+- Version desktop vs version mobile  
+- Affichage contrôlé par media-queries
 
-Tablette : zoom images réduit, position des flèches optimisée
+### 5. Responsive Layout
+- Media-queries à **768px** et **1024px**  
+- **Flexbox** et **Grid** pour la mise en page  
+- Suppression de tout `overflow-x` global (sauf `.carousel-track`)
 
-Desktop : disposition en grille, zoom plus prononcé, flèches hors du carrousel
+---
 
-🚀 Fonctionnalités
-
-Carrousel Produits
-
-Navigation par flèches rondes (SVG) en dehors du conteneur
-
-Scroll fluide calculé en fonction de la largeur de carte + gap
-
-Masquage de la scrollbar native
-
-Modal Popup
-
-Apparition au clic sur « JE DÉCOUVRE »
-
-Fermeture par croix ou touche Esc
-
-Gestion focus pour accessibilité
-
-Zoom au Survol
-
-scale(1.1) sur desktop, scale(1.05) sur tablette, désactivé sur mobile
-
-Double Titre CTA
-
-Titre desktop vs titre mobile masqués/affichés par media-query
-
-Responsive Layout
-
-Media-queries pour 768px et 1024px
-
-Flexbox / Grid pour les sections
-
-Suppression de tout overflow-x global (sauf carousel-track)
-
-📁 Structure du projet
+## 📁 Structure du projet
 
 kusmi-tea-skeeven/
-├── index.html       # Page principale
-├── style.css        # Styles globaux
-├── script.js        # JS carrousel & modal
-├── assets/          # Images produits (PNG, WEBP)
-│   ├── 1.png … 4.png
-│   ├── banner1.png
-│   ├── carou1.webp … carou9.webp
-└── README.md        # Ce fichier
+├── index.html # Page principale
+├── style.css # Styles globaux
+├── script.js # JS carrousel & modal
+├── assets/ # Images produits (PNG, WebP)
+│ ├── 1.png … 4.png
+│ ├── banner1.png
+│ └── carou1.webp … carou9.webp
+└── README.md # Ce fichier
 
-⚙️ Installation & Déploiement
+## 🛠️ Stack technique
+- HTML
 
-Cloner le repo
+- CSS
 
-git clone https://github.com/<votre-username>/kusmi-tea-skeeven.git
-cd kusmi-tea-skeeven
+- JavaScript
 
-Ouvrir en local
+- SVG pour flèches personnalisées
 
-Double-cliquez sur index.html ou utilisez un serveur local (Live Server VSCode).
-
-Pousser vos modifs
-
-git add .
-git commit -m "Votre message"
-git push
-
-🛠️ Stack technique
-
-HTML5
-
-CSS3 (Flexbox, Grid, Media Queries)
-
-JavaScript ES6 (Vanilla)
-
-SVG pour flèches personnalisées
-
-Font : Lato (Google Fonts)
+- Font : Lato (Google Fonts)
 
 👤 Auteur
-
-Skeeven1 — Étudiant Efrei Paris / Alternance 2025
-
-Bonne dégustation et bon code !
+skeeven1 — Étudiant Efrei Paris / Alternance 2025
+   
 
