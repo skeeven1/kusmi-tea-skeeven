@@ -4,17 +4,19 @@
 
 **Projet :** Landing Page Kusmi Tea
 
-Page d’opération responsive intégrée en **HTML**, **CSS** & **JavaScript**, avec un carrousel produits et un modal.
+Page responsive intégrée en **HTML**, **CSS** & **JavaScript**, avec un carrousel produits et un modal.
 
 ---
 
 ## 📝 Présentation
 
+
+
 Cette landing page met en avant :
 
 - **Nos Bestsellers** : 4 cartes produit  
 - **Bloc CTA** : image + titre + description + bouton  
-- **Nos Accessoires** : carrousel scrollable avec différentes images  
+- **Nos Accessoires** : carrousel scrollable avec différentesimages  
 - **Modal Popup** : déclenché par le bouton “JE DÉCOUVRE”  
 - **Effet Zoom** : zoom on hover sur chaque image
 
@@ -27,11 +29,11 @@ Cette landing page met en avant :
 ### 1. Carrousel Produits
 - Navigation par flèches 
 - Scroll disponible 
-- Masquage de la scrollbar native
+- Masquage de la scrollbar 
 
 ### 2. Modal Popup
 - Ouverture au clic sur **JE DÉCOUVRE**  
-- Fermeture par croix ou touche `Esc`  
+- Fermeture par croix et touche échap 
 
 ### 3. Zoom au Survol
 - `scale(1.1)` sur **desktop**  
@@ -51,15 +53,7 @@ Cette landing page met en avant :
 
 ## 📁 Structure du projet
 
-kusmi-tea-skeeven/
-├── index.html # Page principale
-├── style.css # Styles globaux
-├── script.js # JS carrousel & modal
-├── assets/ # Images produits (PNG, WebP)
-│ ├── 1.png … 4.png
-│ ├── banner1.png
-│ └── carou1.webp … carou9.webp
-└── README.md # Ce fichier
+![image](https://github.com/user-attachments/assets/bbe40630-0608-4310-a016-10384d8fd08c)
 
 ## 🛠️ Stack technique
 - HTML
